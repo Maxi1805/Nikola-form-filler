@@ -63,7 +63,7 @@ async function fillForm(data) {
 
   await new Promise((resolve) => setTimeout(resolve, 3000));
 
-  // await page.click('#gform_submit_button_1');
+  await page.click('#gform_submit_button_1');
 
   await new Promise(resolve => setTimeout(resolve, 3000));
 
