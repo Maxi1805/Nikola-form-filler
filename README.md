@@ -39,7 +39,7 @@ Este proyecto automatiza el llenado de un formulario web utilizando Puppeteer y 
 
 ### **4. Llenar el formulario:**
 - Una vez que todo esté listo, presiona el botón **"Fill Form"**.
-- Esto abrirá un navegador y, usando automatización (probablemente con una herramienta como Selenium):
+- Esto abrirá un navegador y, usando Puppeteer:
   - Cada fila de datos se procesará uno por uno.
   - Los campos del formulario correspondiente en el navegador se llenarán automáticamente con la información de la tabla.
   - Si se cargaron imágenes, estas también se incluirán en el formulario.
